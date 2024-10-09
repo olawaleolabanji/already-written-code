@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./youtube.css">
+</head>
+<body>
+    <form>
+      <div class="move">
+        <div>
+            <label for="title">Title:</label>
+            <label for="mr">Mr.</label>
+            <input type="radio" id="mr" name="title" value="Mr.">
+            <label for="mrs">Mrs</label>
+            <input type="radio" id="mrs" name="title" value="Mrs.">
+            <label for="phd">Phd.</label>
+            <input type="radio" id="phd" name="title" value="Phd.">
+            <label for="dr">Dr.</label>
+            <input type="radio" id="dr" name="title" value="Dr.">
+        </div>
+            
+        <br>
+        <div>
+         <label for="fname">First Name:</label>
+         <input type="text" id="fname" name="fname" placeholder="Spongbob" required>
+        </div>
+
+        <br>
+
+        <div>
+         <label for="lname">Last Name:</label>
+         <input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+        </div>
+
+        <br>
+          <DIV>
+            <label for="mail">Email:</label>
+             <INPUT type="email" required id="mail" name="mail" placeholder="abc@email.com">
+          </DIV>
+     <br>
+     <div>
+        <label for="bdate">Birthday:</label>
+        <input type="date" id="bdate" name="bdate" required>
+     </div>
+      <br>
+      <div>
+        <label for="number">Phone Number:</label>
+         <input type="tel" id="number" name="number" required placeholder="+2348033442211">
+      </div>
+      <br>
+     <div>
+     <label for="pass">Password:</label>
+      <input type="password" id="pass" name="pass" required minlength="8" placeholder="abcd1234">
+     </div>
+           <br>
+           <div>
+             <label for="sex">Sex:</label>
+             <label for="m">Male</label>
+             <input type="checkbox" id="m" name="sex" value="Male" placeholder="M">
+             <label for="F">Female</label>
+             <input type="checkbox" id="F" name="sex" value="Female" placeholder="F">
+           </div>
+           <br>
+           <div>
+            <label for="payment">Payment:</label>
+             <select id="payment" name="payment">
+                <option value="valve">Valve</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="visa">Visa</option>
+             </select>
+             </div>
+             <br>
+             <div>
+                <label for="subscribe">Subcribe:</label>
+                <input type="radio" id="subscriber" name="subscribe" value="Subscribe">
+           </div>
+           <br>
+           <div>
+            <input type="Reset">
+           </div>
+           <br>
+           <div>
+            <input type="Submit">
+           </div>
+      </div>
+    </form>
+    <br>
+  </body>
+</html>
+    
+  

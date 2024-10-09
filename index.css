@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+p{
+   font-family: poppins;
+}
+.measure {
+  background-color: red;
+  width: 70vw;
+  height: 20vh;
+}
+.outer {
+  background-color: greenyellow;
+  width: 80vw;
+  height: 50px;
+  font-size: 30px;
+}
+.inner { 
+  background-color: blue;
+  width: 50%;
+  height: 50px;
+  font-size: 50px;
+}
+.inner {
+  background-color: blue;
+  width: 60%;
+  height: 100%;
+  font-size: 50px;
+}
+
+
+.inner1 {
+  background-color: green;
+  width: 50%;
+  height: 100%;
+}
+
+.inner2 {
+  background-color: blue;
+  width: 20%;
+  height: 100%;
+}
+
+.inner3 {
+  background-color: blue;
+  width: 90%;
+  font-size: 40px;
+  height: 100%;
+}
+div + p {
+  color: blue;
+}
+#selected {
+  display: inline;
+}
+#div {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+a, a:active, a:visited{
+   text-decoration: none;
+   font-size: 2rem;
+}
+a:hover{
+   color: red;
+}
+header{
+   background-color: greenyellow;
+   position: sticky;
+   top: 0;
+   height: 10vh;
+}
+.fixed{
+   width: 100px;
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color: green;
+}
+
+.boxes{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   gap: 10px;
+}
+.box2 {
+  background-color: green;
+  height: 100px;
+}
+.box1 {
+   background-color: red;
+   height: 100px;
+ }
+.middle{
+   display:grid;
+   grid-template-columns: 2fr 1fr;
+   gap: 10px;
+}
+.blue{
+   background-color: blueviolet;
+   height: 100px;
+}
+.yellow{
+   background-color: yellow;
+   height: 100px;
+}
+.down{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
+}
+.orange{
+   background-color: orange;
+   height: 100px;
+}
+.black{
+   background-color: black;
+   height: 100px;
+}
+.purple{
+   background-color: purple;
+   height: 100px;
+}
+.brown{
+   background-color: brown;
+   height: 100px;
+}
+.pink{
+   background-color: pink;
+   height: 100px;
+}
+.yellowgreen{
+background-color: yellowgreen;
+height: 100px;
+}
+.all{
+   display: grid;
+   gap: 10px;
+}
+.up{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 20px;
+}
+.white{
+   background-color: white;
+}
+.black{
+   background-color:blue;
+}
+.greenyellow{
+   background-color: greenyellow;
+}
+.secondlayer{
+   display:grid;
+   grid-template-columns: 2fr 1fr;
+height: 100px;
+gap: 20px;
+}
+.green{
+   background-color: green;
+}
+.yello{
+   background-color: yellow;
+}
+.thirdlayer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   height: 100px;
+   gap: 20px;
+}
+.red{
+   background-color: red;
+}
+.pink{
+   background-color: pink;
+}
+.brown{
+   background-color: brown;
+}
+.fourthlayer{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   height: 100px;
+   gap: 20px;
+}
+.yellowgreen{
+   background-color: yellowgreen;
+}
+.orange{
+   background-color: orange;
+}
+.purple{
+   background-color: purple;
+}
+.white{
+   background-color: white;
+}
+.lastlayer{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   height: 100px;
+   gap: 20px;
+}
+.blue{
+   background-color: blueviolet;
+}
+.yello{
+   background-color: yellow;
+}
+.green{
+   background-color: green;
+}
+.white{
+   background-color: wheat;
+}
+.green{
+   background-color: green;
+}
+.blue{
+   background-color: blue;
+}
+.Altogether{
+   display: grid;
+   gap: 20px;
+}
